@@ -1,0 +1,201 @@
+
+* {
+	padding: 0;
+	margin: 0;
+	/*font-family: 'Orbitron', sans-serif;*/
+	font-family: 'Source Code Pro', ariel;
+	color: #333333;
+}
+
+h1 {
+	font-family: 'Nosifer', cursive;
+	color: #333333;
+	/*font-family: 'Homemade Apple', cursive;*/
+	font-size: 60px;
+}
+
+h1 #start {
+	/*font-family: 'Homemade Apple', cursive;*/
+	/*font-family: 'Nixie One', cursive;*/
+	/*font-size: 60px;*/
+	padding: 1% 1% 5% 1%;
+}
+
+h1 #play{
+	/*font-family: 'Homemade Apple', cursive;*/
+	/*font-family: 'Nixie One', cursive;*/
+	/*font-size: 60px;*/
+	padding: 1%;
+}
+
+/* players is the box that holds the first page*/
+#players {
+	height:100%;
+	width: 100%;
+	padding: 3% 0;
+	overflow: hidden;
+	color: #333333;
+}
+
+input[type="text"]#playerName1 {
+  	background-color: #e0ff66;
+  	font-weight: bold;
+}
+
+input::-webkit-input-placeholder {
+	color: #333333;
+}
+
+input[type="text"]#playerName2 {
+  	background-color: #b2d8d8;
+  	font-weight: bold;
+}
+
+/*gameboard holds the player names during the game*/
+#gameboard {
+	width: 620px;
+	margin: 0;
+	padding: 4% 8%;
+	/*opacity: .9;*/
+	/*border-style: solid 10px black;*/
+}
+
+div #buttonBar {
+	height: 100px;
+	width: 100%;
+	/*padding: 3%;*/
+}
+
+div #player1.button {
+	background-color: #e0ff66; 
+	border: 1px solid #3c3c3c;
+	border-radius: 50%;
+	display: inline-block;
+	box-sizing: border-box;
+	width: 23%;
+	height: 4em;
+	padding: 2%;
+	margin: 2%;
+	text-align: center;
+	font-weight: bold;
+}
+
+div #player2.button {
+	background-color: #b2d8d8; 
+	border: 1px solid #3c3c3c;
+	border-radius: 50%;
+	display: inline-block;
+	box-sizing: border-box;
+	width: 23%;
+	height: 4em;
+	padding: 2%;
+	margin: 2%;
+	text-align: center;
+	font-weight: bold;
+}
+
+
+
+div #clear.button {
+	border: 1px solid #3c3c3c;
+	border-radius: 50%;
+	display: inline-block;
+	box-sizing: border-box;
+	width: 18%;
+	height: 4em;
+	padding: 2%;
+	margin: 2%;
+	text-align: center;
+	/*background-color: #f3f3f3;*/
+}
+
+
+body {
+	margin: 3em;
+	/*height: 900px;*/
+	width: 900px;
+	/*font-family: 'Orbitron', sans-serif;*/
+	/*background-color: #f3f3f3;*/
+	background-image: url('http://40.media.tumblr.com/5700653df408604e76673fc0494487f9/tumblr_n33qso7q9Y1qdeuyro1_1280.jpg');
+	/*background-position: top;*/
+	background: cover;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	text-align: center;	
+}
+
+div #bodyContainer {
+	/*margin: 2%;*/
+	/*padding: 2%;*/
+	height: 580px;
+	width: 80%; 
+	display: inline-block;
+	background-color: (215,215,215);
+	/*opacity: .7;*/
+
+
+	/*border-style: solid 10px black;*/
+	/*box-style: border-box;*/
+}
+
+input[type="text"] {
+  	display: inline-block;
+ 	margin: 0;
+  	width: 30%;
+  	font-size: 18px;
+  	/*font-family: 'Orbitron', sans-serif;*/
+  	padding: 10px;
+ 	border: solid 1px #dcdcdc;
+}
+
+
+
+div#submit {
+  	display: inline-block;
+ 	margin: 0;
+ 	width: 20%;
+ 	font-size: 18px;
+ 	/*font-family: 'Orbitron', sans-serif;*/
+ 	background-color: #d7d7d7;
+ 	padding: 10px;
+ 	border: solid 1px #dcdcdc;
+ 	/*transition: box-shadow 0.3s, border 0.3s;*/
+}
+
+
+ul {
+	display: inline-block;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+div .box {
+	/*background-color: #ebebeb;*/
+	background-color: #ebebeb;
+	opacity: 0.6;
+	color: #ebebeb;
+	height: 80px;
+	width: 80px;
+	margin: 2%;
+	padding: 0;
+	border-radius: 50px;
+	text-align: center;
+	/*border: 2px solid 'white';*/
+	border: 2px solid #333333;
+	box-sizing: border-box;
+	/*opacity: .6;*/
+	/*background-image: url('/Users/emilymccormick/iconsspray-paint-drip-vectors 2.jpg');*/
+}
+
+/*1 is fully opaque, .1 is almost transparent*/
+div .box:hover{
+	border: 1px solid #3c3c3c;
+	background-color: #ebebeb;
+	opacity: .2;
+
+}
+
+div #submit:hover {
+  	background-color: white;
+}
