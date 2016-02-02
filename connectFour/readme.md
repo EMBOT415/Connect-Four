@@ -2,7 +2,7 @@ README.MD
 
 # Connect Four: NYC Graffiti Style
 
-EMBOT415.github.io/Connect-Four
+EMBOT415.github.io/Connect-Four/connectFour
 
 ###Description
 
